@@ -4,7 +4,7 @@ import "./Navbar.css";
 import { useAuth, API_URL } from "../context/AuthContext";
 
 // If API_URL is not exported, define it (ensure it matches context):
-// const BACKEND_URL = "http://localhost:5000"; // No /api needed for static files
+// const BACKEND_URL = "https://slvnk-backend.onrender.com"; // No /api needed for static files
 
 const Navbar = () => {
   // Remove scroll state and effect

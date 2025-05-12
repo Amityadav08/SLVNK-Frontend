@@ -5,7 +5,7 @@ import axios from "axios";
 const AuthContext = createContext();
 
 // Export API_URL for use in components
-export const API_URL = "http://localhost:5000/api"; // Ensure this matches your backend
+export const API_URL = "https://slvnk-backend.onrender.com/api"; // Ensure this matches your backend
 
 // For debugging API calls
 const DEBUG_API = true;
