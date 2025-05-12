@@ -259,7 +259,7 @@ const WhatsAppChatbot = ({ profileName }) => {
   };
 
   const handleReplyClick = (message) => {
-    const phoneNumber = "917710870992";
+    const phoneNumber = "918828359340";
     const encodedMessage = encodeURIComponent(message);
     window.open(
       `https://wa.me/${phoneNumber}?text=${encodedMessage}`,
